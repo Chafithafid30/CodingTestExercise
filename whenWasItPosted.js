@@ -49,7 +49,7 @@ function main(tanggalPosting, tanggalSekarang) {
     if (selisihHari > 365) {
         return Math.floor(selisihHari / 365) + " years ago";
     } else if (selisihHari > 30) {
-        return Math.florr(selisihHari / 30) + " months ago";
+        return Math.floor(selisihHari / 30) + " months ago";
     } else if (selisihHari > 7) {
         return Math.floor(selisihHari / 7) + " weeks ago";
     } else {
