@@ -32,7 +32,7 @@ Help us to translate the given time into a sentence that states that time it sel
 6. Return kalimat yang dibuat
 */
 
-// Fungsi whatTimeIsIt
+
 function whatTimeIsIt(time) {
     // Pisahkan jam dan menit dari waktu yang diberikan
     var [hour, minute] = time.split(':');
